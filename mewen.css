@@ -1,0 +1,16 @@
+label {
+  display: block;
+  margin: 1em 0;
+}
+h1, p {
+  text-align: center;
+  color: #0000FF;
+}
+input {
+  margin: 10px 0 0 0;
+  height: 1.5em;
+}
+p1 {
+  text-align: center;
+  color: #0000FF;
+}
