@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <title>Mewen Appreciation Survey</title>
-    <link rel="stylesheet" href="mewen.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1 id="title">Mewen Appeciation Survey</h1>
     <p id="description">Share your favorite Mewen moments here!</p>
-    <form id="survey-form" method="post">
+    <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
       <fieldset>
         <h2>Who is Mewen?</h2>
         <p2>Mewen is a supreme being blessed by Lakshmi, the Hindu goddess of fortune. He has been compared to the Dahli Lama in his ability to dispel negative emotions from the hearts of those whom he meets. It is reported that he can brighten dark rooms, teleport distances of up to 300 yards, and emits a radius of pure health and welfare. Mewen currently resides in a small studio apartment in Palos Verdes, California with his three roommates: Mista Minimum, Mista Maximum, and Rostalfo Ramirez (a.k.a. Fake Mewen).</p2>
@@ -16,7 +16,7 @@
       <fieldset>
         <label for="name" id="name-label">Enter Your Name: <input id="name" name="name" type="text" placeholder="Mewen" required /></label>
         <label for="email" id="email-label">Enter Your Email: <input id="email" name="email" type="email" placeholder="Mewen@Mewen.com" required /></label>
-        <label for="number" id="number-label">Enter Your Age: <input id="number" name="number" type="number" min="10" max="120" placeholder="87" required /></label>
+        <label for="number" id="number-label">Enter Your Age: <input id="number" name="number" type="number" min="10" max="120" placeholder="87" /></label>
       </fieldset>
       <fieldset>
         <legend>How Mewen are you feeling today?</legend>
@@ -24,7 +24,7 @@
         <label for="mewen-poll-bad"><input type="radio" id="mewen-poll-bad" value="mewen-poll-bad" name="mewen-poll" class="inline" /> Fake Mewen (Noooo!!!)</label>
       </fieldset>
       <fieldset>
-        <label for="dropdown">Has Mewen made your life better?
+        <label for="dropdown">Has Mewen made your life better?<br>
           <select id="dropdown" name="dropdown">
             <option value="">(select one)</option>
             <option value="1">Yes</option>
@@ -36,8 +36,7 @@
       </fieldset>
       <fieldset>
         <legend>Mewen Attribute Questionnaire</legend>
-        <p2>How would you describe Mewen?</p2>
-        <p2>Mewen is:</p2>
+        <p class="black-text">How would you describe Mewen?<p class="black-text">Mewen is...</p></p>
         <label for="kind"><input type=checkbox name="kind" id="kind" value="kind" required> Kind</input></label>
         <label for="awesome"><input type=checkbox name="awesome" id="awesome" value="awesome" required> Awesome</input></label>
         <label for="forgiving"><input type="checkbox" name="forgiving" id="forgiving" value="forgiving" required> Forgiving</input></label>
@@ -50,6 +49,6 @@
         <label for="story">Have a Mewen story you'd like to share? Post it below!<label>
         <textarea id="story" name="story" rows="6" cols="50" placeholder="One time Mewen turned me into a tomato salad..."></textarea>
       </fieldset>
-      <button type="submit" id="submit">Mewen</button>
+      <button type="submit" id="submit" class="submit">Submit Your Data to Mewen</button>
     <footer><p>Copyright Gorlami Productions LLC 2023</p></footer>
 </html>
