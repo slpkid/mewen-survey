@@ -1,3 +1,9 @@
+* {
+  padding: 5px;
+}
+.mewenwho{
+  padding: 10px;
+}
 label {
   display: block;
   margin: 1em 0;
